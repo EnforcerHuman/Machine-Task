@@ -34,7 +34,7 @@ class AuthForm extends StatelessWidget {
       child: Column(
         children: [
           CustomTextField(
-            label: 'Name',
+            label: '',
             validator: Validator.validateName,
             controller: nameController,
           ),
